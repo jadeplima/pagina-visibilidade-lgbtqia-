@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>personagens de games</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+            <a href="#"><img src="logo.png" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Historia</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>lgbtqia+ no mundo dos<br><span>GAMES</span></h2>
+                    <p>O 28 de junho marca o Dia do Orgulho LGBTQIA+. Nos últimos anos, muitas desenvolvedoras vem notando que a representatividade é algo importantíssimo dentro dos jogos,
+                         dando mais destaque para as minorias em suas histórias.</p>
+                         <a href="https://battlefield.fandom.com/wiki/Emma_Rosier">Saber sobre personagem</a> 
+                </div>   
+                    <div class="imgBox">
+                        <img src="img1.png" class="personage1">
+                    </div>            
+                </div>   
+
+                
+                <ul class="sci">
+                    <li><a href="#"><img src="facebook.png"></a></li>
+                    <li><a href="#"><img src="instagram.png"></a></li>
+                    <li><a href="#"><img src="twitter.png"></a></li>
+
+                </ul>
+
+            </section>
+
+            <script type="text/javascript">
+                function imgSlider(anything){
+                    document.querySelector('.personage1').src = anything;
+                }
+
+                function changeCircleColor(color){
+                    const circle = document.querySelector('.circle');
+                    circle.style.background = color;
+                }
+            </script>
+           
+    </body>
+</html>
